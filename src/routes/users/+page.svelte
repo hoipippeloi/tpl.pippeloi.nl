@@ -15,8 +15,8 @@
 <div id="medewerkers">
 
     <ul uk-tab>
-        <li class="lijst {userRole}"><a href="#">Lijst</a></li>
-        <li class="aanmaken {userRole}"><a href="#">Aanmaken</a></li>
+        <li class="lijst {userRole}"><a href="#">Users</a></li>
+        <li class="aanmaken {userRole}"><a href="#">Create</a></li>
         <li class="help {userRole}"><a href="#">Help</a></li>
     </ul>
 
@@ -28,7 +28,7 @@
             <Aanmaken />
         </li>
         <li>
-            <p>Content Test Help</p>
+            <p>Help Text!</p>
         </li>
     </ul>
 

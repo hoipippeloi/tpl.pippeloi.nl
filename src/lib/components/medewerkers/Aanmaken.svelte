@@ -139,7 +139,7 @@
     </div>
 
     <div class="uk-width-1-1">
-        <label class="uk-form-label" for="username">Gebruikersnaam</label>
+        <label class="uk-form-label" for="username">Username</label>
         <input bind:value={username} id="username" type="text" class="uk-input" required />
             {#if username && !usernameTaken}
                 <p>Username is available.</p>
@@ -149,22 +149,22 @@
     </div>
 
     <div class="uk-width-1-1">
-    <label class="uk-form-label" for="name">Volledige naam</label>
+    <label class="uk-form-label" for="name">Full name</label>
         <input bind:value={name} id="name" type="text" placeholder="Typ je voor- en achternaam" class="uk-input" required />
     </div>
 
     <div class="uk-width-1-1">
-    <label class="uk-form-label" for="password">Wachtwoord</label>
+    <label class="uk-form-label" for="password">Password</label>
         <input bind:value={password} id="password" type="password" placeholder="Typ je wachtwoord hier" class="uk-input" required />
     </div>
 
     <div class="uk-width-1-1">
-    <label class="uk-form-label" for="passwordConfirm">Wachtwoord controle</label>
+    <label class="uk-form-label" for="passwordConfirm">Password check</label>
         <input bind:value={passwordConfirm} id="passwordConfirm" type="password" placeholder="Typ je wachtwoord hier nog een keer ter controle" class="uk-input" required />
     </div>
 
     <div class="uk-width-1-1">
-    <label class="uk-form-label" for="telefoon">Telefoon</label>
+    <label class="uk-form-label" for="telefoon">Phone number</label>
         <input bind:value={telefoon} id="telefoon" type="text" placeholder="Typ je telefoonnummer" class="uk-input" required />
     </div>
 <!--
@@ -175,7 +175,7 @@
     </div>
 -->
     <div uk-form-custom="target: true" style="width:100%;">
-        <label class="uk-form-label" for="telefoon">Je profiel foto</label>
+        <label class="uk-form-label" for="telefoon">Your profile photo</label>
         <input type="file" aria-label="Custom controls" accept="image/*" required on:change={handleImageUpload}>
         <input class="uk-input uk-form-width-medium uk-width-1-1" type="text" placeholder="Selecteer een foto vanaf je apparaat" aria-label="Custom controls" disabled>
     </div>
