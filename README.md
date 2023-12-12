@@ -15,8 +15,11 @@ Download or git clone this repo.
 Open your CLI in the folder where you downloaded and unpacked the files.
 
 Use: npm install -> to install all dependencies
+
 Use: npm run dev -> to start the app
+
 Use: npm run build -> to build your app and be able to host it where you like
+
 
 ## Config
 
