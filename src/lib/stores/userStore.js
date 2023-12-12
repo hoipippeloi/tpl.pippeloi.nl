@@ -3,7 +3,7 @@
 import { writable } from 'svelte/store';
 import PocketBase from 'pocketbase';
 
-const pb = new PocketBase('https://vdm.pockethost.io');
+const pb = new PocketBase(import.meta.env.VITE_POCKETBASE_URL);
 
 // globally disable auto cancellation
 // https://github.com/pocketbase/js-sdk#auto-cancellation

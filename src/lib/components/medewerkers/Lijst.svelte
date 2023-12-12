@@ -3,6 +3,7 @@
     import userStore from '$lib/stores/userStore';
     import "$lib/css/roles.css";
     import PocketBase from 'pocketbase';
+    const pb = new PocketBase(import.meta.env.VITE_POCKETBASE_URL);
 
     let authData = JSON.parse(localStorage.getItem('auth_data'));
     let userRole = authData.record.role;
@@ -144,7 +145,7 @@
 
             <img class="uk-border-circle" 
                 style="width:48px;height:48px;position:absolute;right:10px;top:10px;border:1px solid #eee;padding:1px;" 
-                src={user.id && user.avatar ? `https://vdm.pockethost.io/api/files/_pb_users_auth_/${user.id}/${user.avatar}` : '../img/avtr7.png'} 
+                src={user.id && user.avatar ? `${import.meta.env.VITE_POCKETBASE_URL}/api/files/_pb_users_auth_/${user.id}/${user.avatar}` : '../img/avtr7.png'} 
                 alt="Avatar"
             />
 
@@ -201,14 +202,14 @@
 
             <div class="uk-width-1-1">
                 <label class="uk-form-label" for="telefoon">Telefoon</label>
-                <input bind:value={user.telefoon} id="telefoon" type="text" placeholder="Typ je telefoonnummer" class="uk-input" required />
+                <input bind:value={user.telefoon} id="telefoon" type="text" placeholder="Typ je telefoonnummer" class="uk-input" />
             </div>
 
             <div uk-form-custom="target: true" style="width:100%;cursor:pointer !important;">
                 <label style="cursor:pointer !important;" class="uk-form-label" for="telefoon">Je profiel foto</label>
                 <img bind:this={avatarPreview} class="uk-border-circle" 
                     style="width:48px;height:48px;margin:5px;border:1px solid #eee;padding:1px;cursor:pointer !important;" 
-                    src={user.id && user.avatar ? `https://vdm.pockethost.io/api/files/_pb_users_auth_/${user.id}/${user.avatar}` : '../img/avtr7.png'} 
+                    src={user.id && user.avatar ? `${import.meta.env.VITE_POCKETBASE_URL}/api/files/_pb_users_auth_/${user.id}/${user.avatar}` : '../img/avtr7.png'} 
                     alt="Avatar"
                 />
                 <input style="cursor:pointer !important;" class="uk-input uk-form-width-medium uk-width-1-1" 
