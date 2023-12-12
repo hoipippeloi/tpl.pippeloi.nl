@@ -1,0 +1,26 @@
+/* ###################################################################
+### Rules medewerker page
+####################################################################*/
+
+#medewerkers.lijst.admin, 
+#medewerkers.lijst.user 
+{
+    display:block;
+}
+
+#medewerkers.aanmaken.admin 
+{
+    display:block;
+}
+
+#medewerkers.aanmaken.user,
+#medewerkers.aanmaken.guest
+{
+    display:none;
+}
+
+.edit.user,
+.edit.guest
+{
+    display:none;
+}
