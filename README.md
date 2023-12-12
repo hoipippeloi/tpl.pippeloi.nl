@@ -39,5 +39,11 @@ After adding this, your app is almost ready to use.
 Next, create a pocketbase instance and use the url of that instance in the .env file. Then you first create a user manually in the pocketbase users collection. 
 After that you can log in to this app with that account.
 
+#### Demo
+
+You can see a demo at [https://tpl.pippeloi.nl](https://tpl.pippeloi.nl).
+
+Log in with user@user.com / user0987.
+
 
 *This bundle was created by Patrick Tehubijuluw (creatuluw at gmail dot com).*
