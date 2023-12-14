@@ -30,6 +30,7 @@
   "type": "module",
   "dependencies": {
     "@sveltejs/adapter-static": "^2.0.3",
+    "alasql": "^4.2.3",
     "bits-ui": "^0.11.3",
     "clsx": "^2.0.0",
     "lucide-svelte": "^0.294.0",
