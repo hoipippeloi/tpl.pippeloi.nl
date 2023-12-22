@@ -1,0 +1,445 @@
+items[0].json.dataArray = [
+    {
+        "char": "😀",
+        "dec": 128512,
+        "hex": "1F600",
+        "name": "GRINNING FACE",
+        "quadrant": "First Quadrant",
+        "pleasantness": 8,
+        "energy_level": 8
+    },
+    {
+        "char": "😁",
+        "dec": 128513,
+        "hex": "1F601",
+        "name": "GRINNING FACE WITH SMILING EYES",
+        "quadrant": "First Quadrant",
+        "pleasantness": 7,
+        "energy_level": 7
+    },
+    {
+        "char": "😂",
+        "dec": 128514,
+        "hex": "1F602",
+        "name": "FACE WITH TEARS OF JOY",
+        "quadrant": "First Quadrant",
+        "pleasantness": 9,
+        "energy_level": 9
+    },
+    {
+        "char": "😃",
+        "dec": 128515,
+        "hex": "1F603",
+        "name": "SMILING FACE WITH OPEN MOUTH",
+        "quadrant": "First Quadrant",
+        "pleasantness": 6,
+        "energy_level": 6
+    },
+    {
+        "char": "😄",
+        "dec": 128516,
+        "hex": "1F604",
+        "name": "SMILING FACE WITH OPEN MOUTH AND SMILING EYES",
+        "quadrant": "First Quadrant",
+        "pleasantness": 7,
+        "energy_level": 7
+    },
+    {
+        "char": "😅",
+        "dec": 128517,
+        "hex": "1F605",
+        "name": "SMILING FACE WITH OPEN MOUTH AND COLD SWEAT",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": 6,
+        "energy_level": -3
+    },
+    {
+        "char": "😆",
+        "dec": 128518,
+        "hex": "1F606",
+        "name": "SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES",
+        "quadrant": "First Quadrant",
+        "pleasantness": 8,
+        "energy_level": 7
+    },
+    {
+        "char": "😇",
+        "dec": 128519,
+        "hex": "1F607",
+        "name": "SMILING FACE WITH HALO",
+        "quadrant": "First Quadrant",
+        "pleasantness": 7,
+        "energy_level": 6
+    },
+    {
+        "char": "😈",
+        "dec": 128520,
+        "hex": "1F608",
+        "name": "SMILING FACE WITH HORNS",
+        "quadrant": "Third Quadrant",
+        "pleasantness": -1,
+        "energy_level": 5
+    },
+    {
+        "char": "😉",
+        "dec": 128521,
+        "hex": "1F609",
+        "name": "WINKING FACE",
+        "quadrant": "First Quadrant",
+        "pleasantness": 5,
+        "energy_level": 4
+    },
+    {
+        "char": "😊",
+        "dec": 128522,
+        "hex": "1F60A",
+        "name": "SMILING FACE WITH SMILING EYES",
+        "quadrant": "First Quadrant",
+        "pleasantness": 6,
+        "energy_level": 5
+    },
+    {
+        "char": "😋",
+        "dec": 128523,
+        "hex": "1F60B",
+        "name": "FACE SAVOURING DELICIOUS FOOD",
+        "quadrant": "First Quadrant",
+        "pleasantness": 7,
+        "energy_level": 6
+    },
+    {
+        "char": "😌",
+        "dec": 128524,
+        "hex": "1F60C",
+        "name": "RELIEVED FACE",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": 5,
+        "energy_level": -2
+    },
+    {
+        "char": "😍",
+        "dec": 128525,
+        "hex": "1F60D",
+        "name": "SMILING FACE WITH HEART-SHAPED EYES",
+        "quadrant": "First Quadrant",
+        "pleasantness": 10,
+        "energy_level": 9
+    },
+    {
+        "char": "😎",
+        "dec": 128526,
+        "hex": "1F60E",
+        "name": "SMILING FACE WITH SUNGLASSES",
+        "quadrant": "First Quadrant",
+        "pleasantness": 6,
+        "energy_level": 5
+    },
+    {
+        "char": "😏",
+        "dec": 128527,
+        "hex": "1F60F",
+        "name": "SMIRKING FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": 0,
+        "energy_level": 0
+    },
+    {
+        "char": "😐",
+        "dec": 128528,
+        "hex": "1F610",
+        "name": "NEUTRAL FACE",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": 0,
+        "energy_level": 0
+    },
+    {
+        "char": "😑",
+        "dec": 128529,
+        "hex": "1F611",
+        "name": "EXPRESSIONLESS FACE",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": -1,
+        "energy_level": -1
+    },
+    {
+        "char": "😒",
+        "dec": 128530,
+        "hex": "1F612",
+        "name": "UNAMUSED FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": -2,
+        "energy_level": -1
+    },
+    {
+        "char": "😓",
+        "dec": 128531,
+        "hex": "1F613",
+        "name": "FACE WITH COLD SWEAT",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": -2,
+        "energy_level": -2
+    },
+    {
+        "char": "😔",
+        "dec": 128532,
+        "hex": "1F614",
+        "name": "PENSIVE FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": -3,
+        "energy_level": -3
+    },
+    {
+        "char": "😕",
+        "dec": 128533,
+        "hex": "1F615",
+        "name": "CONFUSED FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": -4,
+        "energy_level": -2
+    },
+    {
+        "char": "😖",
+        "dec": 128534,
+        "hex": "1F616",
+        "name": "CONFOUNDED FACE",
+        "quadrant": "Third Quadrant",
+        "pleasantness": -5,
+        "energy_level": 2
+    },
+    {
+        "char": "😗",
+        "dec": 128535,
+        "hex": "1F617",
+        "name": "KISSING FACE",
+        "quadrant": "First Quadrant",
+        "pleasantness": 5,
+        "energy_level": 4
+    },
+    {
+        "char": "😘",
+        "dec": 128536,
+        "hex": "1F618",
+        "name": "FACE THROWING A KISS",
+        "quadrant": "First Quadrant",
+        "pleasantness": 6,
+        "energy_level": 5
+    },
+    {
+        "char": "😙",
+        "dec": 128537,
+        "hex": "1F619",
+        "name": "KISSING FACE WITH SMILING EYES",
+        "quadrant": "First Quadrant",
+        "pleasantness": 5,
+        "energy_level": 4
+    },
+    {
+        "char": "😚",
+        "dec": 128538,
+        "hex": "1F61A",
+        "name": "KISSING FACE WITH CLOSED EYES",
+        "quadrant": "First Quadrant",
+        "pleasantness": 4,
+        "energy_level": 3
+    },
+    {
+        "char": "😛",
+        "dec": 128539,
+        "hex": "1F61B",
+        "name": "FACE WITH STUCK-OUT TONGUE",
+        "quadrant": "First Quadrant",
+        "pleasantness": 4,
+        "energy_level": 5
+    },
+    {
+        "char": "😜",
+        "dec": 128540,
+        "hex": "1F61C",
+        "name": "FACE WITH STUCK-OUT TONGUE AND WINKING EYE",
+        "quadrant": "First Quadrant",
+        "pleasantness": 5,
+        "energy_level": 6
+    },
+    {
+        "char": "😝",
+        "dec": 128541,
+        "hex": "1F61D",
+        "name": "FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES",
+        "quadrant": "First Quadrant",
+        "pleasantness": 4,
+        "energy_level": 6
+    },
+    {
+        "char": "😞",
+        "dec": 128542,
+        "hex": "1F61E",
+        "name": "DISAPPOINTED FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": -6,
+        "energy_level": -4
+    },
+    {
+        "char": "😟",
+        "dec": 128543,
+        "hex": "1F61F",
+        "name": "WORRIED FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": -7,
+        "energy_level": -5
+    },
+    {
+        "char": "😠",
+        "dec": 128544,
+        "hex": "1F620",
+        "name": "ANGRY FACE",
+        "quadrant": "Third Quadrant",
+        "pleasantness": -8,
+        "energy_level": 3
+    },
+    {
+        "char": "😡",
+        "dec": 128545,
+        "hex": "1F621",
+        "name": "POUTING FACE",
+        "quadrant": "Third Quadrant",
+        "pleasantness": -9,
+        "energy_level": 4
+    },
+    {
+        "char": "😢",
+        "dec": 128546,
+        "hex": "1F622",
+        "name": "CRYING FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": -10,
+        "energy_level": -5
+    },
+    {
+        "char": "😣",
+        "dec": 128547,
+        "hex": "1F623",
+        "name": "PERSEVERING FACE",
+        "quadrant": "Third Quadrant",
+        "pleasantness": -6,
+        "energy_level": 3
+    },
+    {
+        "char": "😤",
+        "dec": 128548,
+        "hex": "1F624",
+        "name": "FACE WITH LOOK OF TRIUMPH",
+        "quadrant": "First Quadrant",
+        "pleasantness": 9,
+        "energy_level": 8
+    },
+    {
+        "char": "😥",
+        "dec": 128549,
+        "hex": "1F625",
+        "name": "DISAPPOINTED BUT RELIEVED FACE",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": -1,
+        "energy_level": -3
+    },
+    {
+        "char": "😦",
+        "dec": 128550,
+        "hex": "1F626",
+        "name": "FROWNING FACE WITH OPEN MOUTH",
+        "quadrant": "Third Quadrant",
+        "pleasantness": -4,
+        "energy_level": 2
+    },
+    {
+        "char": "😧",
+        "dec": 128551,
+        "hex": "1F627",
+        "name": "ANGUISHED FACE",
+        "quadrant": "Third Quadrant",
+        "pleasantness": -7,
+        "energy_level": 1
+    },
+    {
+        "char": "😨",
+        "dec": 128552,
+        "hex": "1F628",
+        "name": "FEARFUL FACE",
+        "quadrant": "Third Quadrant",
+        "pleasantness": -8,
+        "energy_level": 1
+    },
+    {
+        "char": "😩",
+        "dec": 128553,
+        "hex": "1F629",
+        "name": "WEARY FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": -9,
+        "energy_level": -4
+    },
+    {
+        "char": "😪",
+        "dec": 128554,
+        "hex": "1F62A",
+        "name": "SLEEPY FACE",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": -3,
+        "energy_level": -4
+    },
+    {
+        "char": "😫",
+        "dec": 128555,
+        "hex": "1F62B",
+        "name": "TIRED FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": -8,
+        "energy_level": -6
+    },
+    {
+        "char": "😬",
+        "dec": 128556,
+        "hex": "1F62C",
+        "name": "GRIMACING FACE",
+        "quadrant": "Third Quadrant",
+        "pleasantness": -3,
+        "energy_level": 1
+    },
+    {
+        "char": "😭",
+        "dec": 128557,
+        "hex": "1F62D",
+        "name": "LOUDLY CRYING FACE",
+        "quadrant": "Second Quadrant",
+        "pleasantness": -10,
+        "energy_level": -6
+    },
+    {
+        "char": "😮",
+        "dec": 128558,
+        "hex": "1F62E",
+        "name": "FACE WITH OPEN MOUTH",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": 0,
+        "energy_level": -2
+    },
+    {
+        "char": "😯",
+        "dec": 128559,
+        "hex": "1F62F",
+        "name": "HUSHED FACE",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": 1,
+        "energy_level": -3
+    },
+    {
+        "char": "😰",
+        "dec": 128560,
+        "hex": "1F630",
+        "name": "FACE WITH OPEN MOUTH AND COLD SWEAT",
+        "quadrant": "Fourth Quadrant",
+        "pleasantness": -5,
+        "energy_level": -3
+    }
+]
+
+return items;
