@@ -8,6 +8,9 @@
   const pageObjects = [];
 
   Object.keys(pages).forEach((path) => {
+    // Skip the paths which contain square brackets
+    if (path.includes('[') || path.includes(']')) return;
+
     const levels = path.replace('/src/routes/', '').split('/');
     const cleanLevels = levels.filter(level => level !== '+page.svelte'); 
 
@@ -41,7 +44,7 @@
 
   pageObjectsStore.set(grouped);
 
-  //console.log('pageObjects: ', pageObjects);
+  console.log('pageObjects: ', pageObjects);
 
   import { browser } from '$app/environment';
   import { page as pageStore } from '$app/stores'; // import page store
